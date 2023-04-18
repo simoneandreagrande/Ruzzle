@@ -1,0 +1,29 @@
+INPUT:
+- String parola
+- Board di gioco
+- Posizione della prima lettera
+
+
+STATO (SOLUZIONE PARZIALE):
+- Stringa soluzione parziale
+- Elenco delle posizioni visitate
+
+
+SOLUZIONE FINALE:
+- la parola riconosciuta per intero
+- elenco di tutte le posizioni che compongono la parola
+
+
+LIVELLO DELLA RICORSIONE:
+- Il numero di caratteri nella soluzione parziale
+
+
+STRUTTURE DATI:
+- Stringa (parziale)
+- List<Pos> elenco delle posizioni visitate
+- int livello
+
+
+CONDIZIONI DI TERMINAZIONE:
+- livello == lunghezza della parola cercata
+- se viene trovata la parola
