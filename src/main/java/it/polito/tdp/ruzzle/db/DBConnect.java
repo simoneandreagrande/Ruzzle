@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnect {
 	
-	static private final String jdbcUrl = "jdbc:mysql://localhost/dizionario?user=root&password=password";
+	static private final String jdbcUrl = "jdbc:mariadb://localhost/dizionario?user=root&password=root";
 
 	public static Connection getConnection() {
 
